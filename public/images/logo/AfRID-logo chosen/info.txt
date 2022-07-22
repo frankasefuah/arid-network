@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: acre-medium
+font link: https://www.fontspring.com/fonts/jonathan-ball/acre/acre-medium
+font author: Jonathan Ball
+font author site: https://jonathanballdesign.com/index.php
+Slogan Font: Aleo-Light.otf
+
+icon designer: P Thanga Vignesh
+icon designer link: /amoghdesign
+        
+{"bg":"#EAE5FE","icon-gradient-0":"#410FF8","icon-gradient-1":"#410FF8","font":"#150355","slogan":"#291769"}
+      
