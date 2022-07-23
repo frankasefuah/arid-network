@@ -837,13 +837,13 @@ html {
 
 .bg-home4 {
     padding: 140px 0px 116px 0px;
-    background-color: #f8f7ff
+    background-color: #b8e5da;
 }
 
 @media(max-width: 1199.98px) {
     .bg-home4 .home-img {
         width: 100%;
-        height: auto
+        height: auto;
     }
 }
 
