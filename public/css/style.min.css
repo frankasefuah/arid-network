@@ -84,7 +84,7 @@ html {
 }
 
 .bg-green {
-    background-color: #b8e5da !important
+    background-color: #46adc4 !important
 }
 
 .text-dark {
@@ -307,8 +307,9 @@ html {
 }
 
 .btn-info {
-    background: #57B8FF;
-    border-color: #57B8FF !important
+    background: #46adc4;
+    border-color: #46adc4 !important;
+    color: white;
 }
 
 .btn-info:hover,
@@ -319,14 +320,33 @@ html {
 .btn-info:not(:disabled):not(.disabled):active,
 .btn-info:not(:disabled):not(.disabled):active:focus,
 .btn-info .open>.dropdown-toggle.btn-primary {
-    background: #43afff;
-    border-color: #43afff;
-    box-shadow: 0px 8px 20px -6px rgba(87, 184, 255, .6)
+    background: #46adc4;
+    border-color: #46adc4;
+    box-shadow: 0px 8px 20px -6px rgba(70, 173, 196, .6)
+}
+
+.btn-white {
+    background: #fff;
+    border-color: #fff !important;
+    color: black;
+}
+
+.btn-white:hover,
+.btn-white:focus,
+.btn-white:active,
+.btn-white.active,
+.btn-white.focus,
+.btn-white:not(:disabled):not(.disabled):active,
+.btn-white:not(:disabled):not(.disabled):active:focus,
+.btn-white .open>.dropdown-toggle.btn-primary {
+    background: black;
+    border-color: black;
+    box-shadow: 0px 8px 20px -6px rgba(255, 255, 255, .6)
 }
 
 .btn-outline-info {
-    color: #57B8FF;
-    border-color: #57B8FF
+    color: #46adc4;
+    border-color: #46adc4;
 }
 
 .btn-outline-info:hover,
@@ -337,9 +357,9 @@ html {
 .btn-outline-info:not(:disabled):not(.disabled):active,
 .btn-outline-info:not(:disabled):not(.disabled):active:focus,
 .btn-outline-info .open>.dropdown-toggle.btn-primary {
-    background: #57b8ff;
-    border-color: #57b8ff;
-    box-shadow: 0px 8px 20px -6px rgba(87, 184, 255, .6)
+    background: #46adc4;
+    border-color: #46adc4;
+    box-shadow: 0px 8px 20px -6px rgba(70, 173, 196, .6)
 }
 
 .btn-warning {
@@ -590,7 +610,7 @@ html {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #05bd93;
+    background-color: #46adc4;
     z-index: 9999
 }
 
@@ -651,7 +671,7 @@ html {
 .navbar .navbar-nav .nav-item .nav-link:hover,
 .navbar .navbar-nav .nav-item .nav-link:active,
 .navbar .navbar-nav .nav-item .nav-link.active {
-    color: #05bd93 !important
+    color: #ddead0 !important
 }
 
 .navbar .navbar-toggler {
@@ -686,7 +706,7 @@ html {
 .nav-sticky.navbar .nav-item .nav-link:hover,
 .nav-sticky.navbar .nav-item .nav-link.active,
 .nav-sticky.navbar .nav-item .nav-link:active {
-    color: #05bd93
+    color: #05bd93;
 }
 
 .nav-sticky .navbar-brand .logo-dark {
@@ -841,7 +861,7 @@ html {
 
 .bg-home4 {
     padding: 140px 0px 116px 0px;
-    background-color: #b8e5da;
+    background-color: #46adc4;
 }
 
 @media(max-width: 1199.98px) {
@@ -1034,7 +1054,7 @@ html {
 }
 
 .process-box .process-count .process-number {
-    background: #05bd93;
+    background: #46adc4;
     color: #fff;
     width: 74px;
     height: 74px;
@@ -1408,7 +1428,7 @@ html {
     bottom: -7px;
     width: 45px;
     height: 45px;
-    background-color: rgba(5, 189, 147, .25);
+    background-color: rgba(70, 173, 196, .25);
     margin: 0px auto;
     border-radius: 5px;
     transform: rotate(45deg)
@@ -1419,7 +1439,7 @@ html {
 }
 
 .bg-footer {
-    background-color: #009e84;
+    background-color: #46adc4;
     /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1021%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(25%2c 43%2c 51%2c 1)'%3e%3c/rect%3e%3cpath d='M1440 0L1328.55 0L1440 5.32z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1328.55 0L1440 5.32L1440 39.89L1098.28 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M1098.28 0L1440 39.89L1440 258.76L1063.27 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M1063.27 0L1440 258.76L1440 377.65L869.17 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 560L306.29 560L0 398.12z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 398.12L306.29 560L412.79 560L0 242.89000000000001z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 242.89L412.79 560L680.6500000000001 560L0 127.32z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 127.32L680.6500000000001 560L1193.8600000000001 560L0 86.03z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1021'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e"); */
     background-position: center;
     background-size: cover;
