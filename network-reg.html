@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>AfRID Network</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AfRID Network" />
+    <meta name="keywords" content="AfRID Network" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+    <!-- Bootstrap css -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Materialdesign Css -->
+    <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Unicon Css -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <!-- Light-Box Css -->
+    <link rel="stylesheet" href="css/glightbox.min.css" type="text/css" />
+
+    <!-- Custom Css -->
+    <link href="css/style.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+
+    <!-- Pre-loader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="spinner">Loading...</div>
+        </div>
+    </div>
+    <!-- End Preloader-->
+
+    <!--Navbar Start-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top sticky" id="navbar">
+        <div class="container">
+            <!-- LOGO -->
+            <a class="navbar-brand logo text-uppercase" href="index.html">
+                <img src="images/AfRID-logo/vector/default-monochrome-white.svg" class="logo-light" alt="logo-light"
+                    height="50">
+                <img src="images/AfRID-logo/cover.png" class="logo-dark" alt="logo-dark" height="30">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="mdi mdi-menu"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto navbar-center">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#afrid" class="nav-link">Why AfRID</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About AfRID</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#goal" class="nav-link">Goal & Mission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#categories" class="nav-link">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!--end navabar-collapse-->
+        </div>
+        <!--end container-->
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- START FORM -->
+    <section class="section" id="reg-form">
+        <div class="container">
+
+            <div class="row mt-5 pt-2 justify-content-center">
+
+                <div class="col-lg-9">
+                    <div class="custom-form">
+                        <form method="post" name="regForm" onsubmit="return validateForm()">
+                            <p id="error-msg"></p>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label">Name* :</label>
+                                        <input name="name" id="name" type="text" class="form-control"
+                                            placeholder="Enter your name">
+                                    </div>
+                                </div>
+                                <!--end col-->
+                            </div>
+                            <!-- end row -->
+
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email address* :</label>
+                                        <input type="email" class="form-control" name="email" id="email"
+                                            placeholder="Enter your email">
+                                    </div>
+                                </div>
+                                <!-- end col -->
+
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="number" class="form-label">Phone number* :</label>
+                                        <input type="number" class="form-control" name="number" id="number"
+                                            placeholder="Enter your number">
+                                    </div>
+                                </div>
+                                <!-- end col -->
+
+                                <div class="col-lg-12">
+                                    <div class="mb-3">
+                                        <label for="comments" class="form-label">Comments :</label>
+                                        <textarea class="form-control" placeholder="Leave a comment here"
+                                            name="comments" id="comments" style="height: 100px"></textarea>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+
+                            </div>
+                            <!-- end row -->
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="mt-3 text-end">
+                                        <input type="submit" id="submit" name="send" class="submitBnt btn btn-info"
+                                            value="Send Message">
+                                        <div id="simple-msg"></div>
+                                    </div>
+                                </div>
+                                <!-- end col -->
+                            </div>
+                            <!-- end row -->
+                        </form>
+                        <!-- end form -->
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!--end row-->
+        </div>
+        <!--end container-->
+    </section>
+    <!-- END CONTACT -->
+
+
+    <!-- START FOOTER -->
+    <footer class="bg-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <a href="index.html"><img src="images/AfRID-logo/vector/default-monochrome-white.svg"
+                            alt="afrid logo" height="70"></a>
+                    <!-- <div class="mt-4">
+                        <ul class="list-inline footer-social">
+
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="mdi mdi-facebook"></i>
+                                </a>
+                            </li>
+
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="mdi mdi-linkedin"></i>
+                                </a>
+                            </li>
+
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="mdi mdi-pinterest"></i>
+                                </a>
+                            </li>
+
+                            <li class="list-inline-item">
+                                <a href="#">
+                                    <i class="mdi mdi-twitter"></i>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div> -->
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="mt-4 ps-0 ps-lg-5">
+                        <ul class="list-unstyled footer-link mt-3 mb-0">
+                            <li><a href="#about">About AfRID</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="mt-4 ps-0 ps-lg-5">
+                        <ul class="list-unstyled footer-link mt-3 mb-0">
+                            <li><a href="https://aau.org/about">About AAU</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="mt-4 ps-0 ps-lg-5">
+                        <ul class="list-unstyled footer-link mt-3 mb-0">
+                            <li><a href="#">Sign up</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--end col-->
+        </div>
+        <!--end row-->
+        </div>
+        <!--end container-->
+    </footer>
+    <!-- END FOOTER -->
+
+
+
+    <!--start back-to-top-->
+    <button onclick="topFunction()" id="back-to-top">
+        <img src="images/arrow-up-240.png" class="img-fluid rounded" alt="arrow image" width="30">
+    </button>
+    <!--end back-to-top-->
+
+
+    <!-- Bootstrap Js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Light-Box Js -->
+    <script src="js/glightbox.min.js"></script>
+
+    <!-- Shuffle Js -->
+    <script src="js/shuffle.min.js"></script>
+
+    <!-- Portfolio Js -->
+    <script src="js/gallery.init.js"></script>
+
+    <!-- App Js -->
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
