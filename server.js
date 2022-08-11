@@ -16,8 +16,8 @@ const PORT = 3000
 //         db = client.db(dbName)
 //     })
 
-app.set('view engine', 'ejs')
-app.use(express.static('public'))
+// app.set('view engine', 'ejs')
+app.use(express.static('public/'))
 // app.use(express.urlencoded({ extended: true }))
 // app.use(express.json())
 
